@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
                     Greeting("Android")
-                    val about=AboutUs(1,1,"Our Goal","We aim to fill the world with flowers")
+                    val about= AboutUs(1,1,"Our Goal","We aim to fill the world with flowers")
 
                 }
             }
