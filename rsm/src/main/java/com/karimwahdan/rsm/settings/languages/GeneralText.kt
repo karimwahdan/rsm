@@ -57,6 +57,15 @@ data class GeneralText(
     var total:String,
     var expectedDeliveryDate:String,
     var from:String,
-    var to:String
+    var to:String,
+
+    var material:String?,
+    var width:Int?,
+    var length:Int?,
+    var height:Int?,
+    var thickness:Int?,
+    var color:String?,
+    var weight:String?,
+    var size:String?,
 
 )
