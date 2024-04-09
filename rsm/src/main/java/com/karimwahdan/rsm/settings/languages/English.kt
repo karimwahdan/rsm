@@ -1,0 +1,150 @@
+package com.karimwahdan.rsm.settings.languages
+
+
+class English {
+    //val addToCart="Add to Cart"
+    val delete="Delete"
+    //val saveForLater="Save for later"
+    //val addressDetails="Details:"
+    //val street="Street:"
+    //val viewAll="View All"
+
+    val generalTexts= GeneralText(
+        items="items",
+        alternativeMobileNoString = "Alternative Mobile Number",
+        address="Address",
+        landmark="Landmark",
+        city = "City",
+        error_loading_city = "Error Loading Cities",
+        loading_city = "Loading Cities",
+        area = "Area",
+        address_type = "Address Type",
+        select = "Select",
+        street="Street",
+        totalItems="Total Items",
+        orderPrice="Order Value",
+        deliveryType="Delivery Type",
+        deliveryPrice="Delivery Fees",
+        taxPrice="Tax Value",
+        grandTotal="Grand Total",
+        canReturnWithin = " Return within ",
+        day = " days ",
+        selectDeliveryAddress = "Please Select Delivery Address",
+        noData = "No Data",
+        paymentCannotBeCompleted = "Order cannot be completed",
+        orderCode = "Order Code",
+        discountPrice = "Discount Price",
+        products = "Products",
+        promoCode = "Promo Code",
+        originalPrice="Price",
+        expiryDate = "Expiry Date",
+        total="Total",
+        expectedDeliveryDate = "Expected Delivery Date",
+        from = "from",
+        to = "to",
+        color = "Color",
+        length = "Length",
+        height = "Height",
+        material = "Material",
+        size = "Size",
+        thickness = "Thickness",
+        weight = "Weight",
+        width = "Width"
+
+
+    )
+    val buttonLanguage= ButtonLanguage(
+        id=1,
+        project_id = 1,
+        language = EN,
+        addToCartButtonText = "Add to Cart",
+        goToCartButtonText = "Go To Cart",
+        clearButtonText = "Clear Cart",
+        continueButtonText = "CONTINUE",
+        deleteButtonText = "DELETE",
+        changeButtonText = "Change",
+        proceedButtonText = "PROCEED",
+        saveForLaterButtonText = "Save for later",
+        pickupFromStoreButtonText = "pickup from store",
+        doorStepDeliveryButtonText = "doorstep delivery",
+        cancelButtonText = "Cancel",
+        confirmButtonText = "Confirm",
+        registerButtonText = "Register",
+        signupButtonText = "Signup",
+        loginText = "Login",
+        homeButtonText = "Home",
+        categoriesButtonText = "Categories",
+        wishlistButtonText = "Wishlist",
+        accountButtonText = "My Account",
+        shopNow = "Shop Now"
+    )
+    val profilePageLanguage= ProfilePageLanguage(
+        id=1,
+        project_id = 1,
+        language = EN,
+        homeText = "Home",
+        myCartText = "My Cart",
+        notificationsText = "Notifications",
+        myOrdersText = "My Orders", myTransactionsHistoryText = "My Transactions History",
+        changeMyPasswordText = "Change my password",
+        manageMyAddressesText = "Manage My Addresses", contactUsText = "Contact Us",
+        aboutUsText = "About Us", rateUsText = "Rate Us", shareAppText = "Share App",
+        faqText = "F.A.Q.", termsAndConditionsText = "Terms & Conditions",
+        privacyText = "Privacy Policy",
+        developersText = "Contact Developers",
+        changeLanguageText="Change Language",
+        logoutText = "Logout",
+        projectLogoutText = "Logout from Store Preview"
+    )
+    val projectLanguage= ProjectLanguage(
+        id=1,
+        project_id = 1,
+        language = EN,
+        appName = "Revit Store",
+        topBarWelcome = "Welcome Back,",
+        searchProductPlaceholder = "Search product",
+        shopByCategory = "Shop By Category",
+        viewAll = "View All",
+        wishlistText = "Add to Wishlist",
+        shareText = "Share",
+        similarProductsText = "Similar Products",
+        quantityText = "Quantity",
+        shippingDetailsText = "Shipping Details",
+        orderSummaryText = "Order Summary",
+        unitPriceText = "Unit Price",
+        totalText = "Total",
+        subTotalText = "Sub-Total", deliveryChargeText = "Delivery Charge",
+        taxText = "Tax", youSavedText = "You Saved",
+        grandTotalText = "GrandTotal",
+        itemsTotalValueText = "Items Total Value",
+        aboutThisItemText = "About This Product",
+        confirmOrderText = "Confirm Order",
+        defaultText = "Default",
+        addressDetailsText = "AddressDetails",
+        welcomeToText = "Welcome to",
+        forgotYourPasswordText = "Forgot your password ?!",
+        allProducts = "All Products",
+        allProductsContent = "All Products We Provide",
+        loginFirst = "Please Login First",
+        addressTypeHome="home",
+        addressTypeOffice="work",
+        addressTypeOther="other",
+    )
+
+    val registerPageLanguage= RegisterPageLanguage(
+        id=1,
+        project_id = 1,
+        language = EN,
+        firstNameText = "First Name",
+        middleNameText = "Middle Name",
+        lastNameText = "Last Name",
+        emailText = "E-mail",
+        usernameText = "Username",
+        passwordText = "Password",
+        passwordConfirmationText = "Password Confirmation",
+        countryText = "Country",
+        mobileText = "Mobile Number",
+        nameText = "Name",
+        usernameEmailMobileText = "Username or Email or Mobile"
+    )
+}
