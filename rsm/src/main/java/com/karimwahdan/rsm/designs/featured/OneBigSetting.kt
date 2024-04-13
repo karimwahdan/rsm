@@ -5,4 +5,5 @@ import com.squareup.moshi.Json
 data class OneBigSetting(
     @Json(name="id")
     var id:Int,
+    
 )

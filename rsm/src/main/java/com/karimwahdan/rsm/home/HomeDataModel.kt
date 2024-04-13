@@ -34,6 +34,7 @@ import com.karimwahdan.rsm.featuredSections.FeaturedSection
 import com.karimwahdan.rsm.notifications.NotificationChannel
 import com.karimwahdan.rsm.notifications.NotificationEvent
 import com.karimwahdan.rsm.product.Product
+import com.karimwahdan.rsm.promotionImages.PromotionImage
 import com.squareup.moshi.Json
 
 data class HomeDataModel(
@@ -136,7 +137,7 @@ data class HomeDataModel(
 
     @Json(name="oneBigSettings")
     var oneBigSettings: OneBigSetting?,
-
-
+    @Json(name="promotionImages")
+    var promotionImages:List<PromotionImage>?
     )
 
