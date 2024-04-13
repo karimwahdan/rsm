@@ -8,6 +8,7 @@ data class PromotionImage(
     var id:Int,
     @Json(name="project_id")
     var project_id:Int,
+
     @Json(name="title")
     var title:String?,
     @Json(name="description")
