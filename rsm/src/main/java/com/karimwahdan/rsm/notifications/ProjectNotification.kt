@@ -69,10 +69,10 @@ data class ProjectNotification(
     var is_private:Int?,
 
     @Json(name="title")
-    var title:String,
+    var title:String?,
 
     @Json(name="message")
-    var message:String,
+    var message:String?,
 
     @Json(name="created_at")
     var created_at:String?,
