@@ -7,8 +7,8 @@ class Arabic {
 
     val generalTexts= GeneralText(items="اصناف",
     alternativeMobileNoString = "رقم الهاتف البديل",
-        address="Address",
-        landmark="Landmark",
+        address="العنوان",
+        landmark="علامة مميزة",
         city = "المدينة",
         error_loading_city = "حدث خطأ اثناء تحميل المدن",
         loading_city = "جارى تحميل المدن",
